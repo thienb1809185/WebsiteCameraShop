@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+vi tri
+kich thuoc
+mau sac
+kieu dang
+*/
+html{
+    font-family: sans-serif;
+}
+#main{
+    background-color: #ccc
+
+}
+
+
+
+
+#header-logo{
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    
+}
+
+#header-logo .header-logo-name{
+    display: block;
+    padding-top: 10px;
+}
+
+
+#header-nav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    z-index: 5;
+  
+}
+
+#nav{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+    
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+
+}
+#nav li a{
+    
+    text-decoration: none;
+    height: 50 px;
+    line-height: 50px;   
+    padding: 0 24px; 
+    display: inline-block;
+}
+
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+
+#nav .subnav{
+    display: none; 
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 120%;
+    padding: 0;
+
+}
+#nav .subnav a{
+    color: #000;
+    padding-left: 12px;
+    line-height: 40px;
+}
+#nav .subnav li{
+    display: block;
+    
+}
+
+#nav .subnav li:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.nav-arrow-down{
+    font-size: 30px;
+}
+
+
+#header-nav .search-btn{
+    float: right;
+    padding: 0px 20px;
+    cursor: pointer;
+    
+}
+#header-nav .search-btn:hover{
+    background-color: rgb(231, 39, 39);
+}
+#header-nav .search-icon{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#header-nav .cart-btn{
+    border-left: 0.2px solid gray;
+    float: right;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+#header-nav .cart-icon{
+    
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+#header-nav .login-btn{
+    border-left: 0.2px solid gray;
+    float: right;
+    padding: 0px 20px;
+    cursor: pointer;
+    margin-right: 0px  ;
+}
+
+#header-nav .login-icon{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#slider{
+    margin: 20px auto;
+    padding: 0;
+    width: 80%;
+    height: 550px; 
+
+    
+}
+
+#slider .slider-img{
+    height: 550px;
+
+}
+
+#content{
+    width: 80%;
+    margin: 50px auto;
+    padding: 0px;
+}
+
+#content .container{
+    margin: 0px;
+    padding: 0px;
+}
+#content .content-row-lsp{
+    background-color: #ccc;
+    width: 100%;
+    height: 80px;
+    border-bottom: #000 2px solid;
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+}
+#content .content-loaisp{
+    color: #000;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+
+
+#content .content-row-card{
+    margin-bottom: 30px;
+
+}
+
+#content .content-col-card{
+    margin-bottom: 30px;
+
+}
+
+#content .content-col-card .card-spice{
+    color: red;
+    font-weight: bolder;
+    margin: 10px 0px 20px 0px;
+}
+
+#content .content-col-card .content-card-btn{
+    width: 140px;
+    font-weight: 500;
+}
+
+
+#footer{
+    background-color: #000;
+    color: #ccc;
+}
+
+#footer .container-fluid{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+#footer .footer-title{
+    margin-bottom: 30px;
+} 
+
+#footer .row .col-md-4 p{
+    font-size: 16px;
+}
+
+#footer .footer-gioithieu{
+    padding-right: 50px;
+}
+
+#footer .footer-mangxahoi{
+    padding-left: 50px;
+}
+
+#footer .footer-diachi{
+    padding-left: 50px;
+}
+
+#footer .footer-icon{
+    color: #ccc;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+#footer .footer-mangxahoi-icon{
+    font-size: 50px;
+    color: #ccc;
+}
+
+#footer .footer-mangxahoi a{
+    margin-right: 30px;
+}
